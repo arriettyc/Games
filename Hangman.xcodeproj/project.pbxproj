@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7255B08E1A00E04F00EAFA05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7255B08D1A00E04F00EAFA05 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		7255B0881A00E04F00EAFA05 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,173 @@
 
 /* Begin PBXFileReference section */
 		7255B08A1A00E04F00EAFA05 /* Hangman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hangman; sourceTree = BUILT_PRODUCTS_DIR; };
-		7255B08D1A00E04F00EAFA05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7255B0971A010DA000EAFA05 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		7255B0981A010DA000EAFA05 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		7255B0991A010DA000EAFA05 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		7255B09A1A010DA000EAFA05 /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		7255B09B1A010DA000EAFA05 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		7255B09C1A010DA000EAFA05 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		7255B09D1A010DA000EAFA05 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		7255B09E1A010DA000EAFA05 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		7255B09F1A010DA000EAFA05 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		7255B0A01A010DA000EAFA05 /* curlpp-config.in */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "curlpp-config.in"; sourceTree = "<group>"; };
+		7255B0A11A010DA000EAFA05 /* curlpp.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlpp.pc.in; sourceTree = "<group>"; };
+		7255B0A21A010DA000EAFA05 /* curlpp.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlpp.spec; sourceTree = "<group>"; };
+		7255B0A31A010DA000EAFA05 /* curlpp.spec.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlpp.spec.in; sourceTree = "<group>"; };
+		7255B0A41A010DA000EAFA05 /* curlpp.VC8.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlpp.VC8.sln; sourceTree = "<group>"; };
+		7255B0A51A010DA000EAFA05 /* curlpp.VC8.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.VC8.vcproj; sourceTree = "<group>"; };
+		7255B0A61A010DA000EAFA05 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		7255B0A81A010DA000EAFA05 /* guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = guide.pdf; sourceTree = "<group>"; };
+		7255B0A91A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0AA1A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0AC1A010DA000EAFA05 /* example01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example01.cpp; sourceTree = "<group>"; };
+		7255B0AD1A010DA000EAFA05 /* example02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example02.cpp; sourceTree = "<group>"; };
+		7255B0AE1A010DA000EAFA05 /* example03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example03.cpp; sourceTree = "<group>"; };
+		7255B0AF1A010DA000EAFA05 /* example04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example04.cpp; sourceTree = "<group>"; };
+		7255B0B01A010DA000EAFA05 /* example05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example05.cpp; sourceTree = "<group>"; };
+		7255B0B11A010DA000EAFA05 /* example06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example06.cpp; sourceTree = "<group>"; };
+		7255B0B21A010DA000EAFA05 /* example07.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example07.cpp; sourceTree = "<group>"; };
+		7255B0B31A010DA000EAFA05 /* example08.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example08.cpp; sourceTree = "<group>"; };
+		7255B0B41A010DA000EAFA05 /* example09.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example09.cpp; sourceTree = "<group>"; };
+		7255B0B51A010DA000EAFA05 /* example10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example10.cpp; sourceTree = "<group>"; };
+		7255B0B61A010DA000EAFA05 /* example11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example11.cpp; sourceTree = "<group>"; };
+		7255B0B71A010DA000EAFA05 /* example12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example12.cpp; sourceTree = "<group>"; };
+		7255B0B81A010DA000EAFA05 /* example13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example13.cpp; sourceTree = "<group>"; };
+		7255B0B91A010DA000EAFA05 /* example14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example14.cpp; sourceTree = "<group>"; };
+		7255B0BA1A010DA000EAFA05 /* example15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example15.cpp; sourceTree = "<group>"; };
+		7255B0BB1A010DA000EAFA05 /* example16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example16.cpp; sourceTree = "<group>"; };
+		7255B0BC1A010DA000EAFA05 /* example17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example17.cpp; sourceTree = "<group>"; };
+		7255B0BD1A010DA000EAFA05 /* example18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example18.cpp; sourceTree = "<group>"; };
+		7255B0BE1A010DA000EAFA05 /* example19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example19.cpp; sourceTree = "<group>"; };
+		7255B0BF1A010DA000EAFA05 /* example20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example20.cpp; sourceTree = "<group>"; };
+		7255B0C01A010DA000EAFA05 /* example21.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example21.cpp; sourceTree = "<group>"; };
+		7255B0C11A010DA000EAFA05 /* example22.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example22.cpp; sourceTree = "<group>"; };
+		7255B0C21A010DA000EAFA05 /* example23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example23.cpp; sourceTree = "<group>"; };
+		7255B0C31A010DA000EAFA05 /* example24.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example24.cpp; sourceTree = "<group>"; };
+		7255B0C41A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0C51A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0C61A010DA000EAFA05 /* Makefile.msvc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.msvc; sourceTree = "<group>"; };
+		7255B0C71A010DA000EAFA05 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		7255B0CA1A010DA000EAFA05 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		7255B0CB1A010DA000EAFA05 /* config.h.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.sample; sourceTree = "<group>"; };
+		7255B0CC1A010DA000EAFA05 /* config.win32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.win32.h; sourceTree = "<group>"; };
+		7255B0CD1A010DA000EAFA05 /* cURLpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cURLpp.hpp; sourceTree = "<group>"; };
+		7255B0CE1A010DA000EAFA05 /* Easy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Easy.hpp; sourceTree = "<group>"; };
+		7255B0CF1A010DA000EAFA05 /* Easy.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Easy.inl; sourceTree = "<group>"; };
+		7255B0D01A010DA000EAFA05 /* Exception.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		7255B0D11A010DA000EAFA05 /* Form.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Form.hpp; sourceTree = "<group>"; };
+		7255B0D21A010DA000EAFA05 /* Info.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Info.hpp; sourceTree = "<group>"; };
+		7255B0D31A010DA000EAFA05 /* Info.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info.inl; sourceTree = "<group>"; };
+		7255B0D41A010DA000EAFA05 /* Infos.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Infos.hpp; sourceTree = "<group>"; };
+		7255B0D61A010DA000EAFA05 /* buildconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildconfig.h; sourceTree = "<group>"; };
+		7255B0D71A010DA000EAFA05 /* CurlHandle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CurlHandle.hpp; sourceTree = "<group>"; };
+		7255B0D81A010DA000EAFA05 /* CurlHandle.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = CurlHandle.inl; sourceTree = "<group>"; };
+		7255B0D91A010DA000EAFA05 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		7255B0DA1A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0DB1A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0DC1A010DA000EAFA05 /* OptionContainer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionContainer.hpp; sourceTree = "<group>"; };
+		7255B0DD1A010DA000EAFA05 /* OptionContainer.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = OptionContainer.inl; sourceTree = "<group>"; };
+		7255B0DE1A010DA000EAFA05 /* OptionContainerType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionContainerType.hpp; sourceTree = "<group>"; };
+		7255B0DF1A010DA000EAFA05 /* OptionList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionList.hpp; sourceTree = "<group>"; };
+		7255B0E01A010DA000EAFA05 /* OptionSetter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionSetter.hpp; sourceTree = "<group>"; };
+		7255B0E11A010DA000EAFA05 /* OptionSetter.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = OptionSetter.inl; sourceTree = "<group>"; };
+		7255B0E21A010DA000EAFA05 /* SList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SList.hpp; sourceTree = "<group>"; };
+		7255B0E31A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0E41A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0E51A010DA000EAFA05 /* Multi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Multi.hpp; sourceTree = "<group>"; };
+		7255B0E61A010DA000EAFA05 /* Option.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Option.hpp; sourceTree = "<group>"; };
+		7255B0E71A010DA000EAFA05 /* Option.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Option.inl; sourceTree = "<group>"; };
+		7255B0E81A010DA000EAFA05 /* OptionBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionBase.hpp; sourceTree = "<group>"; };
+		7255B0E91A010DA000EAFA05 /* Options.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Options.hpp; sourceTree = "<group>"; };
+		7255B0EA1A010DA000EAFA05 /* Types.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Types.hpp; sourceTree = "<group>"; };
+		7255B0EB1A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0EC1A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0EE1A010DA000EAFA05 /* clone_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = clone_ptr.hpp; sourceTree = "<group>"; };
+		7255B0EF1A010DA000EAFA05 /* EmptyType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EmptyType.hpp; sourceTree = "<group>"; };
+		7255B0F11A010DA000EAFA05 /* Binder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Binder.hpp; sourceTree = "<group>"; };
+		7255B0F21A010DA000EAFA05 /* Functor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Functor.hpp; sourceTree = "<group>"; };
+		7255B0F31A010DA000EAFA05 /* FunctorHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctorHandler.hpp; sourceTree = "<group>"; };
+		7255B0F41A010DA000EAFA05 /* FunctorImpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctorImpl.hpp; sourceTree = "<group>"; };
+		7255B0F51A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0F61A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0F71A010DA000EAFA05 /* MemFunHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemFunHandler.hpp; sourceTree = "<group>"; };
+		7255B0F81A010DA000EAFA05 /* Functors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Functors.hpp; sourceTree = "<group>"; };
+		7255B0F91A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B0FA1A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B0FB1A010DA000EAFA05 /* NonCopyable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonCopyable.hpp; sourceTree = "<group>"; };
+		7255B0FC1A010DA000EAFA05 /* NullType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NullType.hpp; sourceTree = "<group>"; };
+		7255B0FE1A010DA000EAFA05 /* CreationStatic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CreationStatic.hpp; sourceTree = "<group>"; };
+		7255B0FF1A010DA000EAFA05 /* CreationStatic.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreationStatic.inl; sourceTree = "<group>"; };
+		7255B1001A010DA000EAFA05 /* CreationUsingNew.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CreationUsingNew.hpp; sourceTree = "<group>"; };
+		7255B1011A010DA000EAFA05 /* CreationUsingNew.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreationUsingNew.inl; sourceTree = "<group>"; };
+		7255B1021A010DA000EAFA05 /* LifetimeDefault.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LifetimeDefault.hpp; sourceTree = "<group>"; };
+		7255B1031A010DA000EAFA05 /* LifetimeDefault.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifetimeDefault.inl; sourceTree = "<group>"; };
+		7255B1041A010DA000EAFA05 /* LifetimeLibrary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LifetimeLibrary.hpp; sourceTree = "<group>"; };
+		7255B1051A010DA000EAFA05 /* LifetimeLibrary.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifetimeLibrary.inl; sourceTree = "<group>"; };
+		7255B1061A010DA000EAFA05 /* LifetimeWithLongevity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LifetimeWithLongevity.hpp; sourceTree = "<group>"; };
+		7255B1071A010DA000EAFA05 /* LifetimeWithLongevity.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifetimeWithLongevity.inl; sourceTree = "<group>"; };
+		7255B1081A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B1091A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B10A1A010DA000EAFA05 /* PrivateMembers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrivateMembers.hpp; sourceTree = "<group>"; };
+		7255B10B1A010DA000EAFA05 /* PrivateMembers.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrivateMembers.inl; sourceTree = "<group>"; };
+		7255B10C1A010DA000EAFA05 /* SingletonHolder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingletonHolder.hpp; sourceTree = "<group>"; };
+		7255B10D1A010DA000EAFA05 /* SingletonHolder.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = SingletonHolder.inl; sourceTree = "<group>"; };
+		7255B10E1A010DA000EAFA05 /* Singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
+		7255B10F1A010DA000EAFA05 /* SmartPtr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SmartPtr.hpp; sourceTree = "<group>"; };
+		7255B1101A010DA000EAFA05 /* ThreadingFactoryMutex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreadingFactoryMutex.hpp; sourceTree = "<group>"; };
+		7255B1111A010DA000EAFA05 /* ThreadingFactoryMutex.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThreadingFactoryMutex.inl; sourceTree = "<group>"; };
+		7255B1121A010DA000EAFA05 /* ThreadingSingle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreadingSingle.hpp; sourceTree = "<group>"; };
+		7255B1131A010DA000EAFA05 /* ThreadingSingle.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThreadingSingle.inl; sourceTree = "<group>"; };
+		7255B1141A010DA000EAFA05 /* TypeList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TypeList.hpp; sourceTree = "<group>"; };
+		7255B1151A010DA000EAFA05 /* TypeTrait.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TypeTrait.hpp; sourceTree = "<group>"; };
+		7255B1161A010DA000EAFA05 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		7255B1171A010DA000EAFA05 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		7255B1181A010DA000EAFA05 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		7255B11A1A010DA000EAFA05 /* ax_boost_base.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ax_boost_base.m4; sourceTree = "<group>"; };
+		7255B11B1A010DA000EAFA05 /* libtool.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtool.m4; sourceTree = "<group>"; };
+		7255B11C1A010DA000EAFA05 /* ltoptions.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltoptions.m4; sourceTree = "<group>"; };
+		7255B11D1A010DA000EAFA05 /* ltsugar.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltsugar.m4; sourceTree = "<group>"; };
+		7255B11E1A010DA000EAFA05 /* ltversion.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltversion.m4; sourceTree = "<group>"; };
+		7255B11F1A010DA000EAFA05 /* lt~obsolete.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lt~obsolete.m4"; sourceTree = "<group>"; };
+		7255B1201A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B1211A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B1221A010DA000EAFA05 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		7255B1231A010DA000EAFA05 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		7255B1241A010DA000EAFA05 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		7255B1251A010DA000EAFA05 /* README.win32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.win32; sourceTree = "<group>"; };
+		7255B1281A010DA000EAFA05 /* autolink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		7255B1291A010DA000EAFA05 /* cURLpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cURLpp.cpp; sourceTree = "<group>"; };
+		7255B12A1A010DA000EAFA05 /* Easy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Easy.cpp; sourceTree = "<group>"; };
+		7255B12B1A010DA000EAFA05 /* Exception.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		7255B12C1A010DA000EAFA05 /* Form.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cpp; sourceTree = "<group>"; };
+		7255B12D1A010DA000EAFA05 /* Info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Info.cpp; sourceTree = "<group>"; };
+		7255B12F1A010DA000EAFA05 /* CurlHandle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurlHandle.cpp; sourceTree = "<group>"; };
+		7255B1301A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B1311A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B1321A010DA000EAFA05 /* OptionList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptionList.cpp; sourceTree = "<group>"; };
+		7255B1331A010DA000EAFA05 /* OptionSetter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptionSetter.cpp; sourceTree = "<group>"; };
+		7255B1341A010DA000EAFA05 /* SList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SList.cpp; sourceTree = "<group>"; };
+		7255B1351A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B1361A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B1371A010DA000EAFA05 /* Makefile.msvc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.msvc; sourceTree = "<group>"; };
+		7255B1381A010DA000EAFA05 /* Multi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multi.cpp; sourceTree = "<group>"; };
+		7255B1391A010DA000EAFA05 /* OptionBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptionBase.cpp; sourceTree = "<group>"; };
+		7255B13A1A010DA000EAFA05 /* Options.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Options.cpp; sourceTree = "<group>"; };
+		7255B13B1A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B13C1A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B13E1A010DA000EAFA05 /* LifetimeLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LifetimeLibrary.cpp; sourceTree = "<group>"; };
+		7255B13F1A010DA000EAFA05 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7255B1401A010DA000EAFA05 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7255B1411A010DA000EAFA05 /* PrivateMembers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrivateMembers.cpp; sourceTree = "<group>"; };
+		7255B1421A010DA000EAFA05 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		7255B1441A010DA000EAFA05 /* create-vc-solution.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = "create-vc-solution.bat"; sourceTree = "<group>"; };
+		7255B1451A010DA000EAFA05 /* curlpp.common.vsprops.stub */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.common.vsprops.stub; sourceTree = "<group>"; };
+		7255B1461A010DA000EAFA05 /* curlpp.examples.vcproj.stub */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.examples.vcproj.stub; sourceTree = "<group>"; };
+		7255B1471A010DA000EAFA05 /* curlpp.examples.vsprops.stub */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.examples.vsprops.stub; sourceTree = "<group>"; };
+		7255B1481A010DA000EAFA05 /* curlpp.lib.vcproj.stub */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.lib.vcproj.stub; sourceTree = "<group>"; };
+		7255B1491A010DA000EAFA05 /* curlpp.lib.vsprops.stub */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = curlpp.lib.vsprops.stub; sourceTree = "<group>"; };
+		7255B14A1A010DA000EAFA05 /* curlpp.sln.stub */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlpp.sln.stub; sourceTree = "<group>"; };
+		7255B14E1A010DA000EAFA05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +203,7 @@
 		7255B0811A00E04F00EAFA05 = {
 			isa = PBXGroup;
 			children = (
-				7255B08C1A00E04F00EAFA05 /* Hangman */,
+				7255B0941A010DA000EAFA05 /* Hangman */,
 				7255B08B1A00E04F00EAFA05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +216,306 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7255B08C1A00E04F00EAFA05 /* Hangman */ = {
+		7255B0941A010DA000EAFA05 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
-				7255B08D1A00E04F00EAFA05 /* main.cpp */,
+				7255B0951A010DA000EAFA05 /* curlpp-0.7.3 */,
+				7255B14E1A010DA000EAFA05 /* main.cpp */,
 			);
 			path = Hangman;
+			sourceTree = "<group>";
+		};
+		7255B0951A010DA000EAFA05 /* curlpp-0.7.3 */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0961A010DA000EAFA05 /* curlpp-0.7.3 */,
+			);
+			path = "curlpp-0.7.3";
+			sourceTree = "<group>";
+		};
+		7255B0961A010DA000EAFA05 /* curlpp-0.7.3 */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0971A010DA000EAFA05 /* aclocal.m4 */,
+				7255B0981A010DA000EAFA05 /* AUTHORS */,
+				7255B0991A010DA000EAFA05 /* ChangeLog */,
+				7255B09A1A010DA000EAFA05 /* CHANGES */,
+				7255B09B1A010DA000EAFA05 /* config.guess */,
+				7255B09C1A010DA000EAFA05 /* config.sub */,
+				7255B09D1A010DA000EAFA05 /* configure */,
+				7255B09E1A010DA000EAFA05 /* configure.ac */,
+				7255B09F1A010DA000EAFA05 /* COPYING */,
+				7255B0A01A010DA000EAFA05 /* curlpp-config.in */,
+				7255B0A11A010DA000EAFA05 /* curlpp.pc.in */,
+				7255B0A21A010DA000EAFA05 /* curlpp.spec */,
+				7255B0A31A010DA000EAFA05 /* curlpp.spec.in */,
+				7255B0A41A010DA000EAFA05 /* curlpp.VC8.sln */,
+				7255B0A51A010DA000EAFA05 /* curlpp.VC8.vcproj */,
+				7255B0A61A010DA000EAFA05 /* depcomp */,
+				7255B0A71A010DA000EAFA05 /* doc */,
+				7255B0AB1A010DA000EAFA05 /* examples */,
+				7255B0C81A010DA000EAFA05 /* include */,
+				7255B1161A010DA000EAFA05 /* INSTALL */,
+				7255B1171A010DA000EAFA05 /* install-sh */,
+				7255B1181A010DA000EAFA05 /* ltmain.sh */,
+				7255B1191A010DA000EAFA05 /* m4 */,
+				7255B1201A010DA000EAFA05 /* Makefile.am */,
+				7255B1211A010DA000EAFA05 /* Makefile.in */,
+				7255B1221A010DA000EAFA05 /* missing */,
+				7255B1231A010DA000EAFA05 /* NEWS */,
+				7255B1241A010DA000EAFA05 /* README */,
+				7255B1251A010DA000EAFA05 /* README.win32 */,
+				7255B1261A010DA000EAFA05 /* src */,
+				7255B1421A010DA000EAFA05 /* TODO */,
+				7255B1431A010DA000EAFA05 /* win32 */,
+			);
+			path = "curlpp-0.7.3";
+			sourceTree = "<group>";
+		};
+		7255B0A71A010DA000EAFA05 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0A81A010DA000EAFA05 /* guide.pdf */,
+				7255B0A91A010DA000EAFA05 /* Makefile.am */,
+				7255B0AA1A010DA000EAFA05 /* Makefile.in */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		7255B0AB1A010DA000EAFA05 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0AC1A010DA000EAFA05 /* example01.cpp */,
+				7255B0AD1A010DA000EAFA05 /* example02.cpp */,
+				7255B0AE1A010DA000EAFA05 /* example03.cpp */,
+				7255B0AF1A010DA000EAFA05 /* example04.cpp */,
+				7255B0B01A010DA000EAFA05 /* example05.cpp */,
+				7255B0B11A010DA000EAFA05 /* example06.cpp */,
+				7255B0B21A010DA000EAFA05 /* example07.cpp */,
+				7255B0B31A010DA000EAFA05 /* example08.cpp */,
+				7255B0B41A010DA000EAFA05 /* example09.cpp */,
+				7255B0B51A010DA000EAFA05 /* example10.cpp */,
+				7255B0B61A010DA000EAFA05 /* example11.cpp */,
+				7255B0B71A010DA000EAFA05 /* example12.cpp */,
+				7255B0B81A010DA000EAFA05 /* example13.cpp */,
+				7255B0B91A010DA000EAFA05 /* example14.cpp */,
+				7255B0BA1A010DA000EAFA05 /* example15.cpp */,
+				7255B0BB1A010DA000EAFA05 /* example16.cpp */,
+				7255B0BC1A010DA000EAFA05 /* example17.cpp */,
+				7255B0BD1A010DA000EAFA05 /* example18.cpp */,
+				7255B0BE1A010DA000EAFA05 /* example19.cpp */,
+				7255B0BF1A010DA000EAFA05 /* example20.cpp */,
+				7255B0C01A010DA000EAFA05 /* example21.cpp */,
+				7255B0C11A010DA000EAFA05 /* example22.cpp */,
+				7255B0C21A010DA000EAFA05 /* example23.cpp */,
+				7255B0C31A010DA000EAFA05 /* example24.cpp */,
+				7255B0C41A010DA000EAFA05 /* Makefile.am */,
+				7255B0C51A010DA000EAFA05 /* Makefile.in */,
+				7255B0C61A010DA000EAFA05 /* Makefile.msvc */,
+				7255B0C71A010DA000EAFA05 /* README */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		7255B0C81A010DA000EAFA05 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0C91A010DA000EAFA05 /* curlpp */,
+				7255B0EB1A010DA000EAFA05 /* Makefile.am */,
+				7255B0EC1A010DA000EAFA05 /* Makefile.in */,
+				7255B0ED1A010DA000EAFA05 /* utilspp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7255B0C91A010DA000EAFA05 /* curlpp */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0CA1A010DA000EAFA05 /* config.h.in */,
+				7255B0CB1A010DA000EAFA05 /* config.h.sample */,
+				7255B0CC1A010DA000EAFA05 /* config.win32.h */,
+				7255B0CD1A010DA000EAFA05 /* cURLpp.hpp */,
+				7255B0CE1A010DA000EAFA05 /* Easy.hpp */,
+				7255B0CF1A010DA000EAFA05 /* Easy.inl */,
+				7255B0D01A010DA000EAFA05 /* Exception.hpp */,
+				7255B0D11A010DA000EAFA05 /* Form.hpp */,
+				7255B0D21A010DA000EAFA05 /* Info.hpp */,
+				7255B0D31A010DA000EAFA05 /* Info.inl */,
+				7255B0D41A010DA000EAFA05 /* Infos.hpp */,
+				7255B0D51A010DA000EAFA05 /* internal */,
+				7255B0E31A010DA000EAFA05 /* Makefile.am */,
+				7255B0E41A010DA000EAFA05 /* Makefile.in */,
+				7255B0E51A010DA000EAFA05 /* Multi.hpp */,
+				7255B0E61A010DA000EAFA05 /* Option.hpp */,
+				7255B0E71A010DA000EAFA05 /* Option.inl */,
+				7255B0E81A010DA000EAFA05 /* OptionBase.hpp */,
+				7255B0E91A010DA000EAFA05 /* Options.hpp */,
+				7255B0EA1A010DA000EAFA05 /* Types.hpp */,
+			);
+			path = curlpp;
+			sourceTree = "<group>";
+		};
+		7255B0D51A010DA000EAFA05 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0D61A010DA000EAFA05 /* buildconfig.h */,
+				7255B0D71A010DA000EAFA05 /* CurlHandle.hpp */,
+				7255B0D81A010DA000EAFA05 /* CurlHandle.inl */,
+				7255B0D91A010DA000EAFA05 /* global.h */,
+				7255B0DA1A010DA000EAFA05 /* Makefile.am */,
+				7255B0DB1A010DA000EAFA05 /* Makefile.in */,
+				7255B0DC1A010DA000EAFA05 /* OptionContainer.hpp */,
+				7255B0DD1A010DA000EAFA05 /* OptionContainer.inl */,
+				7255B0DE1A010DA000EAFA05 /* OptionContainerType.hpp */,
+				7255B0DF1A010DA000EAFA05 /* OptionList.hpp */,
+				7255B0E01A010DA000EAFA05 /* OptionSetter.hpp */,
+				7255B0E11A010DA000EAFA05 /* OptionSetter.inl */,
+				7255B0E21A010DA000EAFA05 /* SList.hpp */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		7255B0ED1A010DA000EAFA05 /* utilspp */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0EE1A010DA000EAFA05 /* clone_ptr.hpp */,
+				7255B0EF1A010DA000EAFA05 /* EmptyType.hpp */,
+				7255B0F01A010DA000EAFA05 /* functor */,
+				7255B0F81A010DA000EAFA05 /* Functors.hpp */,
+				7255B0F91A010DA000EAFA05 /* Makefile.am */,
+				7255B0FA1A010DA000EAFA05 /* Makefile.in */,
+				7255B0FB1A010DA000EAFA05 /* NonCopyable.hpp */,
+				7255B0FC1A010DA000EAFA05 /* NullType.hpp */,
+				7255B0FD1A010DA000EAFA05 /* singleton */,
+				7255B10E1A010DA000EAFA05 /* Singleton.hpp */,
+				7255B10F1A010DA000EAFA05 /* SmartPtr.hpp */,
+				7255B1101A010DA000EAFA05 /* ThreadingFactoryMutex.hpp */,
+				7255B1111A010DA000EAFA05 /* ThreadingFactoryMutex.inl */,
+				7255B1121A010DA000EAFA05 /* ThreadingSingle.hpp */,
+				7255B1131A010DA000EAFA05 /* ThreadingSingle.inl */,
+				7255B1141A010DA000EAFA05 /* TypeList.hpp */,
+				7255B1151A010DA000EAFA05 /* TypeTrait.hpp */,
+			);
+			path = utilspp;
+			sourceTree = "<group>";
+		};
+		7255B0F01A010DA000EAFA05 /* functor */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0F11A010DA000EAFA05 /* Binder.hpp */,
+				7255B0F21A010DA000EAFA05 /* Functor.hpp */,
+				7255B0F31A010DA000EAFA05 /* FunctorHandler.hpp */,
+				7255B0F41A010DA000EAFA05 /* FunctorImpl.hpp */,
+				7255B0F51A010DA000EAFA05 /* Makefile.am */,
+				7255B0F61A010DA000EAFA05 /* Makefile.in */,
+				7255B0F71A010DA000EAFA05 /* MemFunHandler.hpp */,
+			);
+			path = functor;
+			sourceTree = "<group>";
+		};
+		7255B0FD1A010DA000EAFA05 /* singleton */ = {
+			isa = PBXGroup;
+			children = (
+				7255B0FE1A010DA000EAFA05 /* CreationStatic.hpp */,
+				7255B0FF1A010DA000EAFA05 /* CreationStatic.inl */,
+				7255B1001A010DA000EAFA05 /* CreationUsingNew.hpp */,
+				7255B1011A010DA000EAFA05 /* CreationUsingNew.inl */,
+				7255B1021A010DA000EAFA05 /* LifetimeDefault.hpp */,
+				7255B1031A010DA000EAFA05 /* LifetimeDefault.inl */,
+				7255B1041A010DA000EAFA05 /* LifetimeLibrary.hpp */,
+				7255B1051A010DA000EAFA05 /* LifetimeLibrary.inl */,
+				7255B1061A010DA000EAFA05 /* LifetimeWithLongevity.hpp */,
+				7255B1071A010DA000EAFA05 /* LifetimeWithLongevity.inl */,
+				7255B1081A010DA000EAFA05 /* Makefile.am */,
+				7255B1091A010DA000EAFA05 /* Makefile.in */,
+				7255B10A1A010DA000EAFA05 /* PrivateMembers.hpp */,
+				7255B10B1A010DA000EAFA05 /* PrivateMembers.inl */,
+				7255B10C1A010DA000EAFA05 /* SingletonHolder.hpp */,
+				7255B10D1A010DA000EAFA05 /* SingletonHolder.inl */,
+			);
+			path = singleton;
+			sourceTree = "<group>";
+		};
+		7255B1191A010DA000EAFA05 /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				7255B11A1A010DA000EAFA05 /* ax_boost_base.m4 */,
+				7255B11B1A010DA000EAFA05 /* libtool.m4 */,
+				7255B11C1A010DA000EAFA05 /* ltoptions.m4 */,
+				7255B11D1A010DA000EAFA05 /* ltsugar.m4 */,
+				7255B11E1A010DA000EAFA05 /* ltversion.m4 */,
+				7255B11F1A010DA000EAFA05 /* lt~obsolete.m4 */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		7255B1261A010DA000EAFA05 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7255B1271A010DA000EAFA05 /* curlpp */,
+				7255B13B1A010DA000EAFA05 /* Makefile.am */,
+				7255B13C1A010DA000EAFA05 /* Makefile.in */,
+				7255B13D1A010DA000EAFA05 /* utilspp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7255B1271A010DA000EAFA05 /* curlpp */ = {
+			isa = PBXGroup;
+			children = (
+				7255B1281A010DA000EAFA05 /* autolink.h */,
+				7255B1291A010DA000EAFA05 /* cURLpp.cpp */,
+				7255B12A1A010DA000EAFA05 /* Easy.cpp */,
+				7255B12B1A010DA000EAFA05 /* Exception.cpp */,
+				7255B12C1A010DA000EAFA05 /* Form.cpp */,
+				7255B12D1A010DA000EAFA05 /* Info.cpp */,
+				7255B12E1A010DA000EAFA05 /* internal */,
+				7255B1351A010DA000EAFA05 /* Makefile.am */,
+				7255B1361A010DA000EAFA05 /* Makefile.in */,
+				7255B1371A010DA000EAFA05 /* Makefile.msvc */,
+				7255B1381A010DA000EAFA05 /* Multi.cpp */,
+				7255B1391A010DA000EAFA05 /* OptionBase.cpp */,
+				7255B13A1A010DA000EAFA05 /* Options.cpp */,
+			);
+			path = curlpp;
+			sourceTree = "<group>";
+		};
+		7255B12E1A010DA000EAFA05 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				7255B12F1A010DA000EAFA05 /* CurlHandle.cpp */,
+				7255B1301A010DA000EAFA05 /* Makefile.am */,
+				7255B1311A010DA000EAFA05 /* Makefile.in */,
+				7255B1321A010DA000EAFA05 /* OptionList.cpp */,
+				7255B1331A010DA000EAFA05 /* OptionSetter.cpp */,
+				7255B1341A010DA000EAFA05 /* SList.cpp */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		7255B13D1A010DA000EAFA05 /* utilspp */ = {
+			isa = PBXGroup;
+			children = (
+				7255B13E1A010DA000EAFA05 /* LifetimeLibrary.cpp */,
+				7255B13F1A010DA000EAFA05 /* Makefile.am */,
+				7255B1401A010DA000EAFA05 /* Makefile.in */,
+				7255B1411A010DA000EAFA05 /* PrivateMembers.cpp */,
+			);
+			path = utilspp;
+			sourceTree = "<group>";
+		};
+		7255B1431A010DA000EAFA05 /* win32 */ = {
+			isa = PBXGroup;
+			children = (
+				7255B1441A010DA000EAFA05 /* create-vc-solution.bat */,
+				7255B1451A010DA000EAFA05 /* curlpp.common.vsprops.stub */,
+				7255B1461A010DA000EAFA05 /* curlpp.examples.vcproj.stub */,
+				7255B1471A010DA000EAFA05 /* curlpp.examples.vsprops.stub */,
+				7255B1481A010DA000EAFA05 /* curlpp.lib.vcproj.stub */,
+				7255B1491A010DA000EAFA05 /* curlpp.lib.vsprops.stub */,
+				7255B14A1A010DA000EAFA05 /* curlpp.sln.stub */,
+			);
+			path = win32;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +574,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7255B08E1A00E04F00EAFA05 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +657,16 @@
 		7255B0921A00E04F00EAFA05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_VARIANTS = normal;
+				CLANG_CXX_LIBRARY = "libc++";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = (
+					"-lcurlpp",
+					"-lcurl",
+				);
+				OTHER_LIBTOOLFLAGS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +674,16 @@
 		7255B0931A00E04F00EAFA05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_VARIANTS = normal;
+				CLANG_CXX_LIBRARY = "libc++";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = (
+					"-lcurlpp",
+					"-lcurl",
+				);
+				OTHER_LIBTOOLFLAGS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +707,7 @@
 				7255B0931A00E04F00EAFA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
